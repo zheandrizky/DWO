@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="44" viewBox="0 0 180 44" role="img" aria-label="DWO-4 Logo">
+  <defs>
+    <linearGradient id="dbGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5D87FF"/>
+      <stop offset="1" stop-color="#2B59FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+
+    <style>
+      :root { --primary:#5D87FF; --text:#2A3547; }
+      .brand-text { font: 700 18px/1.1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; fill: var(--text); letter-spacing: .4px; }
+      .db-stroke { stroke: rgba(42,53,71,.18); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Icon (Database) -->
+  <g transform="translate(8,7)" filter="url(#softShadow)">
+    <!-- top cylinder -->
+    <ellipse cx="16" cy="6" rx="14" ry="6" fill="url(#dbGrad)"/>
+    <path d="M2,6 v16 c0,3.3 6.3,6 14,6 s14-2.7 14-6 V6"
+          fill="url(#dbGrad)" opacity="0.92"/>
+    <!-- separators -->
+    <path d="M2,14 c0,3.3 6.3,6 14,6 s14-2.7 14-6" fill="none" class="db-stroke"/>
+    <path d="M2,22 c0,3.3 6.3,6 14,6 s14-2.7 14-6" fill="none" class="db-stroke"/>
+    <!-- top outline -->
+    <ellipse cx="16" cy="6" rx="14" ry="6" fill="none" class="db-stroke"/>
+  </g>
+
+  <!-- Text -->
+  <text x="50" y="28" class="brand-text">DWO-4</text>
+</svg>

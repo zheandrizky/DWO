@@ -1,0 +1,33 @@
+<svg
+  width="180"
+  height="48"
+  viewBox="0 0 180 48"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="DWO-4 Logo"
+>
+  <!-- Database Icon -->
+  <g transform="translate(0,4)">
+    <!-- top -->
+    <ellipse cx="22" cy="6" rx="18" ry="6" fill="#5D87FF"/>
+    <!-- body -->
+    <rect x="4" y="6" width="36" height="24" fill="#5D87FF"/>
+    <!-- bottom -->
+    <ellipse cx="22" cy="30" rx="18" ry="6" fill="#4A6CF7"/>
+    <!-- highlight -->
+    <ellipse cx="22" cy="6" rx="18" ry="6" fill="none" stroke="#ffffff" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Text -->
+  <text
+    x="55"
+    y="32"
+    font-family="Inter, Arial, sans-serif"
+    font-size="26"
+    font-weight="700"
+    fill="#5D87FF"
+    letter-spacing="1"
+  >
+    DWO-4
+  </text>
+</svg>
